@@ -1,0 +1,86 @@
+<div id="user-form__container">
+  <div class="form-wrap">
+    <h2>Account Details</h2>
+    <form id="form" class="form" action="/submit" method="POST">
+      <div class="form-group">
+        <label for="first_name">First Name: </label>
+        <input type="text" id="first_name" name="first_name" placeholder="Enter your First Name" />
+      </div>
+
+      <div class="form-group">
+        <label for="last_name">Last Name: </label>
+        <input type="text" id="last_name" name="last_name" placeholder="Enter your Last Name" />
+      </div>
+
+      <div class="form-group">
+        <label for="username">Choose a username: </label>
+        <input type="text" id="username" name="username" placeholder="Choose an elegant username" />
+        <div class="hint">
+          Hyphens (‘-’) are allowed. Digits are prohibited. Username must
+          start with first name
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email: </label>
+        <input type="text" id="email" name="email" placeholder="Enter a valid email" />
+        <div class="hint">
+          We require your email to notify you of future events and won't
+          share them with any third party.
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone Number: </label>
+        <input type="text" id="phone" name="phone" placeholder="Enter a valid mobile number with country code" />
+        <div class="hint">
+          We won't share your mobile number with anyone.
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="yoe">Experience (in Years): </label>
+        <input type="number" id="yoe" name="yoe" placeholder="'0' if student" />
+      </div>
+
+      <div class="form-group">
+        <label for="company">Company Name: </label>
+        <input type="text" id="company" name="company" placeholder="'NA' if student" />
+      </div>
+
+      <div class="form-group">
+        <label for="designation">Designation: </label>
+        <input type="text" id="designation" name="designation" placeholder="'NA' if student" />
+      </div>
+
+      <div class="form-group">
+        <label for="github_id"><i class="fab fa-github-square"></i> </label>
+        <input type="text" id="github_id" name="github_id" placeholder="Type your GitHub username" />
+      </div>
+
+      <div class="form-group">
+        <label for="linkedin_id"><i class="fab fa-linkedin"></i> </label>
+        <input type="text" id="linkedin_id" name="linkedin_id" placeholder="Type your LinkedIn username" />
+      </div>
+
+      <div class="form-group">
+        <label for="twitter_id"><i class="fab fa-twitter-square"></i>
+        </label>
+        <input type="text" id="twitter_id" name="twitter_id" placeholder="Type your Twitter username" />
+      </div>
+
+      <div class="form-group">
+        <label for="profile_pic"><i class="far fa-user-circle"></i>
+        </label>
+        <input type="text" id="profile_pic" name="profile_pic"
+          placeholder="Your profile picture comes from website-static" disabled />
+      </div>
+
+      <a href="https://github.com/Real-Dev-Squad/website-static" target="_blank"> Click here to complete image upload
+        process </a>
+
+      <button id="submission" type="submit">Submit</button>
+    </form>
+
+  </div>
+</div>
